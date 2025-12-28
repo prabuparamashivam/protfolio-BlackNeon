@@ -1,0 +1,35 @@
+export const skillsData = {
+ languages: [
+    { name: "C#", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" },
+    { name: "Python", logo: "https://cdn.simpleicons.org/python" },
+    { name: "JavaScript", logo: "https://cdn.simpleicons.org/javascript" },
+  ],
+  frameworks: [
+    { name: ".NET", logo: "https://cdn.simpleicons.org/dotnet" },
+    { name: "ASP.NET", logo: "https://cdn.simpleicons.org/dotnet" },
+    { name: "Django", logo: "https://cdn.simpleicons.org/django" },
+    { name: "Node.js", logo: "https://cdn.simpleicons.org/nodedotjs" },
+    { name: "React", logo: "https://cdn.simpleicons.org/react" },
+  ],
+  databases: [
+    { name: "SQL Server", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg" },
+    { name: "Cosmos DB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cosmosdb/cosmosdb-plain-wordmark.svg" },
+    { name: "Druid DB", logo: "https://cdn.simpleicons.org/apachedruid" },
+    { name: "PostgreSQL", logo: "https://cdn.simpleicons.org/postgresql" },
+  ],
+  tools: [
+    "Azure Functions",
+    "Event Hub",
+    "Service Bus",
+    "Blob Storage",
+    "Key Vault",
+    "Redis Cache",
+    "CI/CD",
+    "Azure DevOps",
+    "Git",
+    "MVC",
+    "MVVM",
+    "Agile",
+    "WebSocket",
+  ],
+};
