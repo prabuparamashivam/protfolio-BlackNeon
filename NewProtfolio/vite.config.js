@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/", // ✅ REQUIRED for prabuparamashivam.github.io
+  base: "./", // ✅ REQUIRED for prabuparamashivam.github.io
 });
