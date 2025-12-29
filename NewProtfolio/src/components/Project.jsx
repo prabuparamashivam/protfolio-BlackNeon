@@ -27,8 +27,14 @@ export default function Project() {
               >
                 {project.title}
               </h3>
+              <span
+                className="grid-rows-2 text-xs px-3 py-1 rounded-full font-medium"
+                style={{ backgroundColor: "#e4f65a", color: "#000" }}
+              >
+                {project.company}
+              </span>
 
-              <p className="mt-3 text-gray-300 text-sm">
+              <p className="mt-3 text-gray-300 text-sm text-justify">
                 {project.description}
               </p>
 

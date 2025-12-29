@@ -5,10 +5,10 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   const navLinks = [
-    { href: "#home", label: "home" },
-    { href: "#experience", label: "experience" },
-    { href: "#project", label: "project" },
-    { href: "#resume", label: "resume" },
+    { href: "#home", label: "Home" },
+    { href: "#experience", label: "Experience" },
+    { href: "#project", label: "Project" },
+    { href: "#resume", label: "Resume" },
   ];
 
   return (
