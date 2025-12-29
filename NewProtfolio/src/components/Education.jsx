@@ -2,8 +2,8 @@ import { educationData } from "./data/educationData";
 
 export default function Education() {
   return (
-    <section className="bg-black px-4 md:px-12 py-16 min-h-screen">
-      <div className="max-w-4xl mx-auto">
+    <section className="bg-black px-4 md:px-12 py-16">
+      <div className="md:mx-10 mx-auto">
 
         {/* Page Title */}
         <h2 className="text-white text-3xl font-bold mb-10">

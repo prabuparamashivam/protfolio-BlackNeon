@@ -2,8 +2,8 @@ import { projectsData } from "./data/projectsData";
 
 export default function Project() {
   return (
-    <section className="bg-black px-4 md:px-12 py-16">
-      <div className="max-w-6xl mx-auto">
+    <section id="project" className="bg-black px-4 md:px-12 py-16 scroll-mt-24">
+      <div className="md:mx-10 mx-auto">
 
         <h2 className="text-white text-3xl font-bold mb-10">
           Projects

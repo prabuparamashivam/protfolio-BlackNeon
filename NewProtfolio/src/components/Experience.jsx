@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <section className="bg-black px-4 md:px-12 py-14">
+    <section id="experience" className="bg-black px-4 md:px-12 py-14 scroll-mt-24">
       <div className="relative max-w-1xl mx-auto">
 
         {/* EXPERIENCE LABEL */}

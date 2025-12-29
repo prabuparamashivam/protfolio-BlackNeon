@@ -5,10 +5,10 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   const navLinks = [
-    { href: "#home", label: "HOME" },
-    { href: "#about", label: "ABOUT" },
-    { href: "#project", label: "PROJECT" },
-    { href: "#resume", label: "RESUME" },
+    { href: "#home", label: "home" },
+    { href: "#experience", label: "experience" },
+    { href: "#project", label: "project" },
+    { href: "#resume", label: "resume" },
   ];
 
   return (
@@ -34,7 +34,7 @@ export default function Header() {
             <a
               key={link.label}
               href={link.href}
-              className="hover:text-blue-400 transition text-gray-200"
+              className="hover:text-[#e4f65a] transition text-gray-200"
             >
               {link.label}
             </a>
@@ -56,12 +56,14 @@ export default function Header() {
         <div className="md:hidden border-gray-700">
           {navLinks.map((link) => (
             <a
-              key={link.label}
-              href={link.href}
-              className="block px-4 py-2 border-b border-gray-700 hover:text-blue-400 transition"
-            >
-              {link.label}
-            </a>
+  key={link.label}
+  href={link.href}
+  onClick={() => setOpen(false)}
+  className="block px-4 py-2 border-b border-gray-700 hover:text-[#e4f65a] transition"
+>
+  {link.label}
+</a>
+
           ))}
         </div>
       )}

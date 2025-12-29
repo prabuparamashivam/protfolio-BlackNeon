@@ -2,8 +2,8 @@ import { skillsData } from "./data/skillsData";
 
 export default function Highlights() {
   return (
-    <section className="bg-black px-4 md:px-12 py-16 min-h-screen">
-      <div className="max-w-6xl mx-auto">
+    <section className="bg-black px-4 md:px-12 py-16">
+      <div className="md:mx-10 mx-auto">
 
         <h2 className="text-white text-3xl font-bold mb-10">
           Skills

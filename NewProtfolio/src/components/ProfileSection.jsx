@@ -1,13 +1,15 @@
 import Awards from "./Awards";
 import { LanguagesBar } from "./LanguagesBar";
+import { Contact } from "./Contact";
 
 export default function ProfileSection() {
   return (
-    <section className="bg-black px-4 md:px-12 py-16">
-      <div className="max-w-6xl mx-auto space-y-6">
+    <section id="resume" className="bg-black px-4 md:px-12 py-16 scroll-mt-24">
+      <div className="md:mx-10 mx-auto space-y-6">
 
         <Awards />
         <LanguagesBar />
+        <Contact />
 
         {/* Download Resume Button */}
         <div className="flex justify-center pt-4">

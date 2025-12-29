@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-<section className="flex flex-col md:flex-row items-center justify-center min-h-screen px-4 md:px-12 hero-desing bg-black">
+<section id="home" className="flex flex-col md:flex-row items-center justify-center min-h-svh px-4 md:px-12 hero-desing bg-black scroll-mt-24">
   {/* LEFT SIDE */}
   <div className="md:w-1/3 flex flex-col items-center text-center md:items-start md:text-left wrapper">
     <h1 className="glitch hero-desing text-5xl md:text-6xl font-bold leading-tight mb-4">
